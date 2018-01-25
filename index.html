@@ -5,6 +5,7 @@ layout: default
   {% for post in site.posts %}
     <li>
       <a href="../testhoneywell{{ post.url }}">{{ post.title }}</a>
+      {{content}}
     </li>
   {% endfor %}
 </ul>
