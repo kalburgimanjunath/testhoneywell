@@ -1,5 +1,7 @@
-"# testhoneywell" 
-{% include _header.html %}
+---
+layout: default
+---
+
 <ul>
   {% for post in site.posts %}
     <li>
@@ -7,4 +9,3 @@
     </li>
   {% endfor %}
 </ul>
-{% include _footer.html %}
