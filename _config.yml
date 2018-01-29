@@ -1,1 +1,2 @@
 theme: jekyll-theme-midnight
+baseurl: "testhoneywell" # the subpath of your site, e.g. /blog/
